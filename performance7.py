@@ -5,7 +5,7 @@ resultList = []
 for j in range(100):
     start = time.time()
     for i in range(100000000):
-        if test != 'bbb':
+        if test == 'aaa':
             pass
     process_time = time.time() - start
     print(str(j+1) + ' times.')
